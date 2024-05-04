@@ -1,6 +1,6 @@
 /*
   1]
-  primative
+  primative 
   -String
   -Number
   -Boolean
@@ -50,6 +50,22 @@ let myObj={
     console.log(typeof myFunctions);
 
 // Stsck  (Premative), Heap (non Premative)
+
+let firstnum=90;
+let secondnum=firstnum;
+secondnum=89;
+console.table([firstnum,secondnum])
+
+let obj1={
+    email:"rushis@gmil.com",
+    upi:"fsdfsdf.ybl"
+}
+let obj2=obj1
+
+obj2.email="Rufdsfsd@gmail.com"
+
+console.table([obj1,obj2])
+
 
 
 

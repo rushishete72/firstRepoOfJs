@@ -1,48 +1,45 @@
-console.log(1>2);
-console.log(1>=2);
-console.log(1<2);
-console.log(1<=2);
-console.log(1==2);
-console.log(1!=2);
-
 /*
-  1]
- In JavaScript, when we compare null with a number using the > operator (null > 0),
-    or == (null == 0), or even ===, the result will be false because null is treated as 
-    a non-existent value and doesn't coerce into a number.
-
-  2]
- However, when we use the >= operator (null >= 0),
-    JavaScript follows a different rule. The >= operator performs type coercion, 
-    and null is coerced to 0. In other words, null is treated as 0 when using >=. 
-    So null >= 0 evaluates to `
-
-*/
-console.log(null>0);
-console.log(null==0);
-console.log(null<=0);
-
-
-/*
-  When undefined is compared to a number or a string using any comparison
-  operator (==, ===, <, >, <=, >=), the result is always false.
-*/
-console.log(undefined==0);
-console.log(undefined===0);
-console.log(undefined<=0);
-console.log(undefined>=0);
-console.log(undefined<0);
-console.log(undefined>0);
-
-
-/*
- When a string is compared to a number using the == operator,
- like in "2" == 2, JavaScript coerces/(force) the string to a number, 
- resulting in a true equality, while with the === operator, 
- as in "2" === 2, strict comparison fails due to differing types.
+* Comparison operators in JavaScript are used to compare values and return a boolean result.
+*
+* > (greater than)
+* >= (greater than or equal to)
+* < (less than)
+* <= (less than or equal to)
+* == (equality)
+* != (inequality)
+*
+* When comparing null with a number, null is treated as a non-existent value and doesn't coerce into a number,
+* resulting in false for >, ==, and === comparisons. However, >= operator performs type coercion, and null is coerced to 0,
+* so null >= 0 evaluates to true.
+*
+* Undefined is always considered as not comparable with any other type, resulting in false for all comparisons.
+*
+* When comparing a string and a number using the == operator, JavaScript coerces the string to a number,
+* resulting in a true equality if the values are numerically equal. However, with the === operator,
+* strict comparison fails due to differing types.
 */
 
+console.log(1 > 2); // Output: false
+console.log(1 >= 2); // Output: false
+console.log(1 < 2); // Output: true
+console.log(1 <= 2); // Output: true
+console.log(1 == 2); // Output: false
+console.log(1 != 2); // Output: true
 
-console.log("2"==2);
-console.log("2"===2);
-console.log(2==2);
+// Comparison with null
+console.log(null > 0); // Output: false
+console.log(null == 0); // Output: false
+console.log(null <= 0); // Output: true
+
+// Comparison with undefined
+console.log(undefined == 0); // Output: false
+console.log(undefined === 0); // Output: false
+console.log(undefined <= 0); // Output: false
+console.log(undefined >= 0); // Output: false
+console.log(undefined < 0); // Output: false
+console.log(undefined > 0); // Output: false
+
+// Comparison between string and number
+console.log("2" == 2); // Output: true
+console.log("2" === 2); // Output: false
+console.log(2 == 2); // Output: true

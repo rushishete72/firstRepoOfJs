@@ -1,51 +1,52 @@
-let score="33fsdfsd";
-console.log(typeof score);
-console.log(typeof(score));
- let typeOfVariables=typeof score;
- console.log(typeOfVariables);
- let valuInNumber=Number(score);
+/*
+We declare a variable 'score' and check its type using two different syntaxes.
+*/
+let score = "33fsdfsd"; // Declare a variable 'score' and assign it a string value
+console.log(typeof score); // Output the type of 'score'
+console.log(typeof(score)); // Output the type of 'score' using another syntax
 
- console.log(typeof  valuInNumber);
- console.log(valuInNumber);
- let cons;
- let con=Boolean(cons);
- console.log(typeof  con);
- console.log(con);
+// Store the type of 'score' in another variable 'typeOfVariables'
+let typeOfVariables = typeof score;
+console.log(typeOfVariables); // Output the type of 'score'
+
+// Convert 'score' to a number using the Number() function
+let valueInNumber = Number(score);
+console.log(typeof valueInNumber); // Output the type of 'valueInNumber'
+console.log(valueInNumber); // Output the value of 'valueInNumber'
+
+// Convert undefined variable 'cons' to a boolean using the Boolean() function
+let cons;
+let con = Boolean(cons);
+console.log(typeof con); // Output the type of 'con'
+console.log(con); // Output the value of 'con'
 
 /*
-                     ************************************************************
+Arithmetic operations:
 */
+console.log(8 * 8); // Output the result of multiplication
+console.log(8 + 8); // Output the result of addition
+console.log(8 - 8); // Output the result of subtraction
+console.log(8 / 8); // Output the result of division
+console.log(8 % 8); // Output the result of modulo operation
 
+// Concatenate two strings
+let str1 = "rushi";
+let str2 = "shete";
+let str3 = str1 + str2;
+console.log(str3); // Output the concatenated string
 
-
-
-console.log(8*8);
-console.log(8+8);
-console.log(8-8);
-console.log(8/8);
-console.log(8%8);
-
-
-let str1="rushi";
-let str2="shete";
-let str3=str1+str2;
-console.log(str3);
-
-
-console.log(1+"2");
-console.log("1"+2);
-console.log("1"+2+2);
-console.log(2+2+"1");
-console.log("2"+2+"1");
-
+// Concatenate strings and numbers
+console.log(1 + "2"); // Output: "12"
+console.log("1" + 2); // Output: "12"
+console.log("1" + 2 + 2); // Output: "122"
+console.log(2 + 2 + "1"); // Output: "41"
+console.log("2" + 2 + "1"); // Output: "221"
 
 /*
-     increements decreements 
+Increments and decrements:
 */
-
-let num=89;
-let num2;
-console.log([num++,num]);
-console.log([++num,num]);
-console.log([num1=num++,num]);
-
+let num = 89; // Declare a variable 'num' and assign it the value 89
+let num2; // Declare a variable 'num2' without initializing it
+console.log([num++, num]); // Output the value of 'num' before and after post-increment
+console.log([++num, num]); // Output the value of 'num' before and after pre-increment
+console.log([num1 = num++, num]); // Output the value of 'num' after post-increment and assign the previous value to 'num1'

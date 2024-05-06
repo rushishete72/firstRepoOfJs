@@ -1,4 +1,0 @@
-/**
- * Prototypes and Inheritance: JavaScript is a prototype-based language, which means objects can inherit properties and
- * methods from other objects through prototype chains. This forms the basis of inheritance in JavaScript.
- */

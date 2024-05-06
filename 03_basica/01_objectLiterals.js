@@ -1,5 +1,5 @@
 /**
- * Object Literals: The most common way to create objects in JavaScript is using object literals {}.
+ * Object Literals:  The most common way to create objects in JavaScript is using object literals {}.
  * Example:
  */
 let person = {

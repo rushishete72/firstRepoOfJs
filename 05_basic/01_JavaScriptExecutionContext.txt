@@ -1,0 +1,70 @@
+
+ JavaScript Execution Context
+
+ Global Context
+
+global-context.js
+
+// Code examples for global execution context
+
+
+ global-context.md
+
+<!-- Documentation for global execution context -->
+
+
+ Function Context
+
+ function-context.js
+
+
+// Code examples for function execution context
+
+
+ function-context.md
+
+
+<!-- Documentation for function execution context -->
+
+
+ Block Scope
+ block-scope.js
+
+
+// Code examples for block scope
+
+
+ block-scope.md
+
+
+<!-- Documentation for block scope -->
+
+
+ Lexical Scope
+lexical-scope.js
+
+
+// Code examples for lexical scope
+
+lexical-scope.md
+
+
+<!-- Documentation for lexical scope -->
+
+
+ This Keyword
+
+ this-keyword.js
+
+
+// Code examples for the 'this' keyword
+
+
+this-keyword.md
+
+
+<!-- Documentation for the 'this' keyword -->
+
+
+
+

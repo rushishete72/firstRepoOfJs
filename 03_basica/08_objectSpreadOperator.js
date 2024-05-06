@@ -4,3 +4,4 @@
  * Example:
  */
 let newObj = { ...person, city: "Los Angeles" };
+ 

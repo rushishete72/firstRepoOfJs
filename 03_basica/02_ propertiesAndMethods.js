@@ -1,5 +1,5 @@
 /**
- * Properties and Methods: Properties are the key-value pairs in an object, and methods are functions stored as object properties.
+ * Properties and Methods:  Properties are the key-value pairs in an object, and methods are functions stored as object properties.
  * Accessing Properties and Methods: Properties and methods of an object can be accessed using dot notation (object.property) or
  * bracket notation (object['property']).
  * Example:

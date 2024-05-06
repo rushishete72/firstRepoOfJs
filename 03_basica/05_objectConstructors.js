@@ -1,5 +1,5 @@
 /**
- * Object Constructors: JavaScript allows defining object constructors using functions. Constructors are templates for creating
+ * Object Constructors:  JavaScript allows defining object constructors using functions. Constructors are templates for creating
  * objects with similar properties and methods.
  * Example:
  */

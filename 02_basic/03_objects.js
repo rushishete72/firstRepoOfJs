@@ -1,5 +1,5 @@
-// Singleton pattern using object literals
-const JsUser = {
+// Singleton pattern using object  literals
+const JsUser = {  
     // Properties of the JsUser object
     fullName: "Rushikesh Shete", // User's full name
     name: "Rushikesh", // User's name

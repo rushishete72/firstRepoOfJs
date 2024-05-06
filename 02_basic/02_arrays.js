@@ -1,5 +1,5 @@
 // Creating an array using array literal notation
-const arr = [33, 3, 33];
+const arr = [33, 3, 33]; 
 console.log("Array arr:", arr); // Output: [33, 3, 33]
 
 // Creating an array with predefined elements

@@ -1,0 +1,4 @@
+/**
+ * Definition: In JavaScript, an object is a collection of key-value pairs where each key is a unique identifier (property)
+ * and each value can be of any data type, including other objects, functions, and primitive types.
+ */
